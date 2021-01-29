@@ -1,0 +1,6 @@
+Para executar o javascript aqui na máquina 
+só usar o comando do node 
+
+vai na pasta onde está o arquivo pelo cmd e digita 
+
+node <nome do arquivo>.js
