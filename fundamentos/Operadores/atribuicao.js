@@ -1,6 +1,10 @@
 const a = 7;
 let b = 3;
 
+
+console.log(printaTudo(b , a));
+
+
 function printaTudo(b , a){
     console.log("--Full--");
     console.log(soma(b,a));
@@ -8,25 +12,26 @@ function printaTudo(b , a){
 
 function soma(b , a){  
     console.log("Soma:\t");
-    
-    return console.log(subtracao(b += a)); // b = b+a
+    console.log(b += a);
+    return console.log(subtracao(b , a)); // b = b+a
 }
 
 function subtracao(b , a){
     console.log("Subtração:\t");
-    return console.log(multiplica(b -= a)); // b = b-a
+    console.log(b -=a );
+    return console.log(multiplica(b , a)); // b = b-a
 }
 
 function multiplica(b , a){
     console.log("multiplica:\t");
-
-    return console.log(divide(b *= a));
+    console.log( b *= a);
+    return console.log(divide(b , a));
 }
 
 function divide(b , a){
     console.log("divide:\t");
-    
-    return console.log(modulo(b /= a));
+    console.log( b /= a);
+    return console.log(modulo(b));
 }
 
 function modulo( b ){   
@@ -40,4 +45,3 @@ function modulo( b ){
     }
 }
 
-console.log(printaTudo());
