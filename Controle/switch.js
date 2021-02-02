@@ -17,8 +17,7 @@ const imprimirResultado = function (nota){
         default:
             console.log("Reprovou, aceita", valor, nota);
             break;
-    }
-
+    }//switch
 }
 
 console.log(imprimirResultado(9.6));
