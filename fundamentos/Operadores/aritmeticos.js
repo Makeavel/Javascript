@@ -13,3 +13,4 @@ const modulo = a % 2;
 console.log("Naturais:",soma , subtracao , multiplica , divisao , modulo);
 
 console.log("Negativos:",soma-5 , -subtracao , multiplica , -divisao , modulo);
+
