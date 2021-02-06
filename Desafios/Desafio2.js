@@ -19,14 +19,14 @@ function circulo(raio){
     let potencia = Math.pow(raio,2);
     const resultado = Math.PI * potencia;
     console.log("Circulo:");
-    return printa(resultado.toFixed(0));
+    return printa(resultado.toFixed(1));
 }
 
 function retangulo(base, altura){
 
     const resultado = (base * altura);
     console.log("Retangulo:");
-    return printa(resultado);
+    return printa(resultado);  
 }
 
 function triangulo(base , altura){
