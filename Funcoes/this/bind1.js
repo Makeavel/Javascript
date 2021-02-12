@@ -11,4 +11,5 @@ pessoa.falar();
 const falar = pessoa.falar; // não funciona, undefined, tá errado, ai entra do bind
 
 const falarPessoa = pessoa.falar.bind(pessoa);
+
 falarPessoa();
