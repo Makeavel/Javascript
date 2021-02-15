@@ -13,3 +13,19 @@ const falar = pessoa.falar; // não funciona, undefined, tá errado, ai entra do
 const falarPessoa = pessoa.falar.bind(pessoa);
 
 falarPessoa();
+
+const pessoal = {
+
+    nome : "Laura",
+    idade : "26",
+    endereco : "Lago Norte",
+
+    externar(){
+        console.log(this.nome);
+    }
+
+}
+
+const oi = pessoal.externar.bind(pessoal);
+
+oi()
