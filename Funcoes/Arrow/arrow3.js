@@ -4,7 +4,7 @@ let comparaThis = function (parametro){
 
 const objto = {}
 
-comparaThis = comparaThis.bind(obj);
+comparaThis = comparaThis.bind(objto);
 comparaThis(global); // váriavel global...
 comparaThis(objto);
 

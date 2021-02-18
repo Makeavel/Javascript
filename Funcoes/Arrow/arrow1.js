@@ -14,7 +14,7 @@ dobraValor = a => 2 * a; // return implícito
 console.log(dobraValor(Math.PI));
 
 let palavra = function(){
-    return "PETR4"
+    return "PETR4";
 };
 
 palavra = () => "PETR4";
